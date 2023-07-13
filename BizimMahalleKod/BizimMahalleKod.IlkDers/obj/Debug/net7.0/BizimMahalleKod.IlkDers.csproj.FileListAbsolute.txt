@@ -1,0 +1,15 @@
+C:\Users\fnsss\Documents\GitHub\BizimMahalle\BizimMahalleKod\BizimMahalleKod.IlkDers\bin\Debug\net7.0\BizimMahalleKod.IlkDers.exe
+C:\Users\fnsss\Documents\GitHub\BizimMahalle\BizimMahalleKod\BizimMahalleKod.IlkDers\bin\Debug\net7.0\BizimMahalleKod.IlkDers.deps.json
+C:\Users\fnsss\Documents\GitHub\BizimMahalle\BizimMahalleKod\BizimMahalleKod.IlkDers\bin\Debug\net7.0\BizimMahalleKod.IlkDers.runtimeconfig.json
+C:\Users\fnsss\Documents\GitHub\BizimMahalle\BizimMahalleKod\BizimMahalleKod.IlkDers\bin\Debug\net7.0\BizimMahalleKod.IlkDers.dll
+C:\Users\fnsss\Documents\GitHub\BizimMahalle\BizimMahalleKod\BizimMahalleKod.IlkDers\bin\Debug\net7.0\BizimMahalleKod.IlkDers.pdb
+C:\Users\fnsss\Documents\GitHub\BizimMahalle\BizimMahalleKod\BizimMahalleKod.IlkDers\obj\Debug\net7.0\BizimMahalleKod.IlkDers.csproj.AssemblyReference.cache
+C:\Users\fnsss\Documents\GitHub\BizimMahalle\BizimMahalleKod\BizimMahalleKod.IlkDers\obj\Debug\net7.0\BizimMahalleKod.IlkDers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fnsss\Documents\GitHub\BizimMahalle\BizimMahalleKod\BizimMahalleKod.IlkDers\obj\Debug\net7.0\BizimMahalleKod.IlkDers.AssemblyInfoInputs.cache
+C:\Users\fnsss\Documents\GitHub\BizimMahalle\BizimMahalleKod\BizimMahalleKod.IlkDers\obj\Debug\net7.0\BizimMahalleKod.IlkDers.AssemblyInfo.cs
+C:\Users\fnsss\Documents\GitHub\BizimMahalle\BizimMahalleKod\BizimMahalleKod.IlkDers\obj\Debug\net7.0\BizimMahalleKod.IlkDers.csproj.CoreCompileInputs.cache
+C:\Users\fnsss\Documents\GitHub\BizimMahalle\BizimMahalleKod\BizimMahalleKod.IlkDers\obj\Debug\net7.0\BizimMahalleKod.IlkDers.dll
+C:\Users\fnsss\Documents\GitHub\BizimMahalle\BizimMahalleKod\BizimMahalleKod.IlkDers\obj\Debug\net7.0\refint\BizimMahalleKod.IlkDers.dll
+C:\Users\fnsss\Documents\GitHub\BizimMahalle\BizimMahalleKod\BizimMahalleKod.IlkDers\obj\Debug\net7.0\BizimMahalleKod.IlkDers.pdb
+C:\Users\fnsss\Documents\GitHub\BizimMahalle\BizimMahalleKod\BizimMahalleKod.IlkDers\obj\Debug\net7.0\BizimMahalleKod.IlkDers.genruntimeconfig.cache
+C:\Users\fnsss\Documents\GitHub\BizimMahalle\BizimMahalleKod\BizimMahalleKod.IlkDers\obj\Debug\net7.0\ref\BizimMahalleKod.IlkDers.dll
