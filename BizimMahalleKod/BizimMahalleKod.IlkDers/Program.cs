@@ -70,5 +70,240 @@ Console.ReadLine();
  En son olarak t yi ekrana yazdır.
  Bitir.
  */
-long a = 31899871245;
+// Değişkenlere Default(Varsayılan) ve Kullanıcdan Gelen Değerlere göre işlem alacağız.
+/*Varsayılan Değişken Değerleri*/
+//int a = 9, b = 10, c = 11, t = 0;
+//char secim; // Kullanıcı bazlı değişken değer atama.
+//Console.Write("Lütfen yapmak istediğiniz işlemi yazınız 1-Toplama(+) 2- Çıkarma (-) 3- Çarpma (*) 4- Bölme (/) : ");
+//secim = Convert.ToChar(Console.ReadLine());
+
+//if (secim == '+')
+//{
+//    t = a + b + c;
+//    Console.WriteLine("");
+//    Console.Write("Sayıların Toplamı : " + t);
+//}
+//else if(secim=='-')
+//{
+//    t = a - b - c;
+//    Console.WriteLine("");
+//    Console.Write("Sayıların Farkı : " + t);
+//}
+//else if (secim == '*')
+//{
+//    t = a * b * c;
+//    Console.WriteLine("");
+//    Console.Write("Sayıların Çarpımı : " + t);
+//}
+//else if (secim == '/')
+//{
+//    t = a / b / c;
+//    Console.WriteLine("");
+//    Console.Write("Sayıların Böleni : " + t);
+//}
+//else
+//{
+//    Console.Write("Yanlış işlem yaptınız");
+//}
+//switch (secim)
+//{
+//    case '+':
+//        t = a + b + c;
+//        Console.WriteLine("");
+//        Console.Write("Sayıların Toplamı : " + t);
+//        break;
+//    case '-':
+//        t = a - b - c;
+//        Console.WriteLine("");
+//        Console.Write("Sayıların Farkı : " + t);
+//        break;
+//    case '*':
+//        t = a * b * c;
+//        Console.WriteLine("");
+//        Console.Write("Sayıların Çarpımı : " + t);
+//        break;
+//    case '/':
+//        t = a / b / c;
+//        Console.WriteLine("");
+//        Console.Write("Sayıların Böleni : " + t);
+//        break;
+//    default:
+//        Console.Write("Yanlış işlem yaptınız");
+//        break;
+//}
+/*
+ * Başla
+ * Varsayılan değerli 5 adet değişken tanımla;
+ * Daha bu 5 değişkeni topla t değişkenine ata;
+ * Daha sonra çıkan sonucu ekrana yazdır. T
+ */
+//int a = 5, b = 6, c = 7, d = 8, e = 9, t = 0;
+//t = a + b + c + d + e;
+//Console.WriteLine(t);
+/*
+ *  Başla
+ *  İki adet değişken tanımla boş değer olarak
+ *  Daha Sonra bu değişkenlerden bir tanesine kullanıcadan Adını İste
+ *  Daha Sonra ikinci değişkene Soyadını iste
+ *  Daha Sonrada 1 inci ve 2 inci değişkenleri ekrana yazdır.
+ *  Bitir
+ */
+//string name, surname;
+//Console.WriteLine("Lütfen Adınızı Giriniz : ");
+//name = Console.ReadLine(); // Konsol ekranından gelen her değer string tipinde olduğu çevirmeye ihtiyaç yoktur.
+//Console.WriteLine("Lütfen Soyadınızı Giriniz : ");
+//surname = Console.ReadLine();
+//Console.WriteLine(name + " " + surname);
+
+/*
+ * if else kullanarak bir algoritma oluşturalım
+ * Başla
+ * 2 adet değişken tanımlayınız varsayılan değerli
+ * Koşula sokacağımız değişken kullanıcıdan gelsin
+ * Eğer değer kullanıcının seçtiği gibiyse
+ * ekrana mesaj yazsın
+ * eğer değilse
+ * bilgilendirme mesajı yazsın
+ * Bitir.
+ */
+
+//string car = "5.20D";
+//string brand = "BMW";
+//char secim;
+//Console.WriteLine(car + " Bu markalı araç Mercedes-Benz firmasına aitse 1'e basınız değilse 2'ye basınız");
+//secim = Char.Parse(s: Console.ReadLine());
+//if (secim == 1)
+//{
+//    Console.WriteLine("Seçim yaptığınız arabanın modelinin markası " + brand + " firmasına aittir.");
+//}
+//else
+//{
+//    Console.WriteLine("Evet Mercedes-Benz firmasına ait değildir. Model " + brand + " Firmasına aittir.");
+//}
+
+/*
+ * Switch Case Kullanarak Algoritma Oluşturacağız
+ * değişken tanımla ve kullanıcıdan değer iste
+ * switch case ile gelen değere karşılık veren sonucu ekrana yazdır.
+ * bitir.
+ */
+//string writeDay;
+//Console.WriteLine("En çok hangi günü seversiniz.");
+//writeDay = Console.ReadLine();
+//switch (writeDay)
+//{
+//	case "Pazartesi":
+//		Console.WriteLine("Pazartesi gününü sevdiğini zannetmiyorum");
+//		break;
+//	case "Salı":
+//		Console.WriteLine("Salı Sallanır");
+//		break;
+//	case "Çarşamba":
+//		Console.WriteLine("Çarşamba Çarşafa Dolanır");
+//		break;
+//	case "Perşembe":
+//		Console.WriteLine("Perşembe Perşianlık");
+//		break;
+//	case "Cuma":
+//		Console.WriteLine("Hayırlı evlat afferin mübarek günü seviyorsun");
+//		break;
+//	case "Cumartesi":
+//		break;
+//	case "Pazar":
+//		break;
+//	default:
+//		Console.WriteLine("7 gün içinde gün tutturamadınya ....");
+//		break;
+//}
+
+// string char int
+// double float deciaml değişkenlerini kullanacağız.
+// Gömülü Fonksiyonlar
+
+/*
+ * DİKDÖRTGEL ALAN ve Cevre HESAPLAMA
+ * başla
+ * ilk olarak kısa kenarı kullanıcıdan isticez
+ * ikinci olarak uzun kenarı kullanıcıdan isticez.
+ * daha sonra alan değişkenimize kısa kenar * uzun kenar
+ * cevre 2* kısa+uzunkenar
+ * alanın sonucunu ekrana basıcaz.
+ * cevrenın sonucunu ekrana basıcaz.
+ * bitir.
+ */
+//double kisaKenar, uzunKenar, alan, cevre;
+//Console.WriteLine("Lütfen Kısa Kenarı Giriniz.");
+//kisaKenar = double.Parse(Console.ReadLine());
+//Console.WriteLine("Lütfen Uzun Kenarı Giriniz.");
+//uzunKenar = double.Parse(Console.ReadLine());
+//alan = kisaKenar * uzunKenar;
+//cevre = 2 * (kisaKenar + uzunKenar);
+//Console.WriteLine("Dikdörtgenin Alanı : "+ Math.Round(alan, 2));
+//Console.WriteLine("Dikdörtgenin Çevresi : " + Math.Round(cevre, 2));
+
+/*
+ * Dairenin Alanı ve Çevresini Hesaplama
+ * Başla
+ * cevre değişkenini alan değişkenini r değişkenini oluştur.
+ * Yarı çapı kullanıcıdan isticez (r)
+ * cevre = 2*Math.PI*r;
+ * alan Math.PI*r*r;
+ * alan ve çevreyi ekrana yazıcaz
+ * bitir.
+ */
+//double cevre, alan, r;
+//Console.WriteLine("Yarı çapı giriniz : ");
+//r = double.Parse(Console.ReadLine());
+
+//cevre = 2 * Math.PI * r;
+//alan = Math.PI * r * r;
+
+//Console.WriteLine("Dairenin Çevresi : " + Math.Round(cevre, 2));
+//Console.WriteLine("Dairenin Alanı  : " + Math.Round(alan, 2));
+
+/*
+ * Bir ürüne %20 KDV eklenecek
+ * başla
+ * ürün fiyat değişkeni oluşturalacak double tipinde
+ * double tipinde kdv değişkeni oluşturulup varsayılan değerine 20 atanacak
+ * daha sonrada double toplam değişkeni oluşturulup
+ * toplam=(urunFiyat*kdv)+urunFiyat;
+ * Toplam değişkenini ekrana basacaksınız
+ * Bitir.
+ */
+/*10 dakikanız var bekliyorum kolay gelsin*/
+//double fiyat, toplam, kdv=20;
+//Console.WriteLine("Lütfen Ürününüzün fiyatını giriniz : ");
+//fiyat = double.Parse(Console.ReadLine());
+//toplam = ((fiyat * kdv) / 100) + fiyat;
+//Console.WriteLine("Ürününüzün kdvli satış fiyatı : " + Math.Round(toplam, 2));
+
+/*
+ * Bir ürüne önce kdv eklenecek daha sonra indirim yapılacak;
+ * toplamda 4 adet double tipinde değişken tanımlanacak
+ * kdv değişkeni varsayılanı 20 olacak.
+ * Önce Fiyat değişkenine veriyi kullanıcıdan isticez
+ * daha sonra kdvsini hesaplayıp ekrana basıcaz.
+ * toplam = ((fiyat*kdv)/100)+fiyat;
+ * toplamı ekrana bas
+ * Daha sonra indirim değişkenine kullanıcdan değer atayacağız.
+ * Kullanıcıdan indirim değeri iste
+ * toplam=((toplam*indirim)/100)-toplam;
+ * Ekrana Ürünün indirimli hali diyip toplamı tekrar ekrana basacaksınız.
+ */
+//double indirim, fiyat, kdv, toplam;
+//kdv = 20;
+//Console.WriteLine("Fiyat giriniz : ");
+//fiyat = double.Parse(Console.ReadLine());
+//toplam = ((fiyat * kdv) / 100) + fiyat;
+//Console.WriteLine("Ürünün kdv dahil fiyatı : " + Math.Round(toplam, 2));
+//Console.WriteLine("İndirim miktarı girin : ");
+//indirim = double.Parse(Console.ReadLine());
+//toplam = (toplam - (toplam * indirim) / 100);
+//Console.WriteLine("Ürünün indirimli fiyatı : " + Math.Round(toplam, 2));
+
+/*
+ * Toplamda 5 adet double değişkenini kullanarak 5 adet
+ * hem algoritması hemde kod örneğiyle birlikte pazartesi gününe kadar hazır getirin.
+ */
 Console.ReadKey();
