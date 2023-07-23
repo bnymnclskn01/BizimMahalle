@@ -306,4 +306,67 @@ Console.ReadLine();
  * Toplamda 5 adet double değişkenini kullanarak 5 adet
  * hem algoritması hemde kod örneğiyle birlikte pazartesi gününe kadar hazır getirin.
  */
+
+//Ekrana Yazdırma Komudumuz Var
+//Ekrana 2 türlü yazdırabiliriz
+//Console.Write("Bu bir test mesajıdır");
+//Console.Write("Bu bir ikinci test mesajıdır.\n");
+//Direk Alta indirmeyle ekrana yazdırma
+//Console.WriteLine("Bu bir test mesajıdır.");
+//Console.WriteLine("Bu bir ikinci test mesajıdır.");
+
+
+// varsayılan değerli değişkenler birde program esnasında
+//string adiniz = "Buraya isim giriniz.";
+//string soyadiniz;
+//int yas;
+// değer değiştiren değişkenler
+//soyadiniz = "Buraya soyadınızı giriniz.";
+// Kullanıcıdan değer gelenler
+// Konsol ekranında ne değer gelirse gelsin
+// hepsi string metin tipindedir.
+// eğerki değişkenim string değilse hemen convert işlemi
+// dönüştürme değişken tipine dönüştürme.
+// Okuma Satırı Gelecek Metini okur.
+//Console.WriteLine("Lütfen adınızı giriniz :");
+//adiniz = Console.ReadLine();
+//Console.WriteLine("Lütfen soyadınızı giriniz : ");
+//soyadiniz=Console.ReadLine();
+//Console.WriteLine("Lütfen yaşınızı giriniz : ");
+//yas = int.Parse(Console.ReadLine());
+// Ayrıştırmak Okuma satırını integer tipinde ayrıştırdı.
+// daha sonrada yas değişkenine atadı.
+//Console.Clear();
+//Console.WriteLine("Adınız : " + adiniz + " Soyadınız : " + soyadiniz + " Yaşınız : " + yas);
+/*
+ * Algoritma
+ * Önce Girdiler Sonra Çıktılar
+ * Başla
+ * urunFiyat double, kdv int, indirim int
+ * Kullanıcıdan urunFiyat değerini iste
+ * Kullanıcıdan kdv değeri iste
+ * daha sonrada urunFiyat=((urunFiyat*KDV)/100)+urunFiyat
+ * urunFiyatın kdvli tarafına ekrana yazdır.
+ * Kullanıcıdan indirimi iste
+ * urunFiyat=((urunFiyat*indirim)/100)-urunFiyat;
+ * En son olarak ürünün en son fiyatını ekrana yazdır.
+ * Bitir.
+ */
+// eğerki int kdv, indirim virgül burada devamlılık arzeder.
+// ; koyarsak orada işlemin bittiğini kabul eder program.
+
+//double urunFiyat; int kdv, indirim;
+//Console.WriteLine("Ürününüzün fiyatını giriniz : ");
+//urunFiyat = double.Parse(Console.ReadLine());
+//Console.WriteLine("Ürününüzün kdv tutarını giriniz :");
+//kdv=int.Parse(Console.ReadLine());
+// 100*1.20=120;
+// 100*20/100=20;
+// Önce Parentez içleri sonra çarpma sonra bölme sonra toplma çıkarma
+//urunFiyat = ((urunFiyat*kdv)/100)+urunFiyat;
+//Console.WriteLine("Ürününüzün KDV'li tutarı : " + urunFiyat+" TL");
+//Console.WriteLine("Lütfen ürününüze indirim yüzdesini giriniz : ");
+//indirim= int.Parse(Console.ReadLine());
+//urunFiyat = urunFiyat - ((urunFiyat * indirim) / 100);
+//Console.WriteLine("Ürününüzün İndirim'li tutarı : " + urunFiyat + " TL");
 Console.ReadKey();
