@@ -369,4 +369,46 @@ Console.ReadLine();
 //indirim= int.Parse(Console.ReadLine());
 //urunFiyat = urunFiyat - ((urunFiyat * indirim) / 100);
 //Console.WriteLine("Ürününüzün İndirim'li tutarı : " + urunFiyat + " TL");
+/*
+ * Nesne yönelim programlama C# aslında tamamiyle bir nesne yönemli programlamadır.
+ * Biraz Nesnelerden Çalışmaya başlıcaz.
+ * Bizim bugüne kadar yazdığımız bütün kodlar spagetti kod olarak tanımlanır.
+ * Bütün kodları aynı yere yazdığımız zaman spagetti kod mantığı ile çalışmış oluruz.
+ * Spagetti Karmaşık uzun bir makarna türüdür.
+ * Program.cs altına topluyoruz. 
+ */
+
+
+//using BizimMahalleKod.IlkDers;
+
+//BizimMahalleKod.IlkDers.Action action = new BizimMahalleKod.IlkDers.Action();
+//action.ActionMetot();
+
+
+using BizimMahalleKod.IlkDers.Matematiksel;
+
+MatAction matAction = new MatAction();
+char secim;
+Console.WriteLine("1- Toplama | 2-Çıkarma | 3-Çarpma | 4-Bölme");
+secim = Convert.ToChar(Console.ReadLine());
+if (secim == '1')
+{
+    matAction.Toplama();
+}
+else if (secim == '2')
+{
+    matAction.Cikarma();
+}
+else if (secim == '3')
+{
+    matAction.Carpma();
+}
+else if (secim == '4')
+{
+    matAction.Bolme();
+}
+else
+{
+    Console.Write("Yanlış işlem yaptınız");
+}
 Console.ReadKey();
